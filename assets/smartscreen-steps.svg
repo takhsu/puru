@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="Windows 藍色提示：先按「其他資訊」，再按「仍要執行」">
+  <style>
+    text{font-family:"Segoe UI","Microsoft JhengHei",sans-serif}
+    .win{fill:#1F5FA8}.t{fill:#fff}.sm{font-size:13px}.big{font-size:19px;font-weight:600}
+    .btn{fill:#fff;fill-opacity:.18;stroke:#fff;stroke-width:1.5}
+    .hl{fill:none;stroke:#CC1212;stroke-width:3;stroke-dasharray:6 4}
+    .num{fill:#CC1212}.nt{fill:#fff;font-size:15px;font-weight:700;text-anchor:middle}
+  </style>
+  <g>
+    <rect class="win" x="10" y="10" width="340" height="230" rx="6"/>
+    <text class="t big" x="30" y="52">Windows 已保護您的電腦</text>
+    <text class="t sm" x="30" y="82">Microsoft Defender SmartScreen 已</text>
+    <text class="t sm" x="30" y="102">避免啟動無法辨識的應用程式。</text>
+    <text class="t sm" x="30" y="130" text-decoration="underline">其他資訊</text>
+    <rect class="hl" x="22" y="114" width="78" height="24" rx="4"/>
+    <circle class="num" cx="118" cy="126" r="12"/><text class="nt" x="118" y="131">1</text>
+    <rect class="btn" x="236" y="196" width="94" height="30" rx="3"/><text class="t sm" x="283" y="216" text-anchor="middle">不要執行</text>
+  </g>
+  <path d="M362 125 h36" stroke="#CC1212" stroke-width="3" fill="none"/><path d="M392 115 l12 10 -12 10" stroke="#CC1212" stroke-width="3" fill="none"/>
+  <g>
+    <rect class="win" x="410" y="10" width="340" height="230" rx="6"/>
+    <text class="t big" x="430" y="52">Windows 已保護您的電腦</text>
+    <text class="t sm" x="430" y="80">應用程式：PURUCUT-0.9.1-setup-x64.exe</text>
+    <text class="t sm" x="430" y="100">發行者：不明的發行者</text>
+    <rect class="btn" x="520" y="196" width="104" height="30" rx="3"/><text class="t sm" x="572" y="216" text-anchor="middle">仍要執行</text>
+    <rect class="hl" x="514" y="190" width="116" height="42" rx="5"/>
+    <circle class="num" cx="646" cy="211" r="12"/><text class="nt" x="646" y="216">2</text>
+  </g>
+</svg>

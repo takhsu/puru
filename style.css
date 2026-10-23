@@ -284,6 +284,8 @@ a { color: inherit; }
 .dl__main { display: grid; gap: 18px; justify-items: start; }
 .dl__meta, .dl__soon { color: var(--night-gray); font-size: .98rem; }
 .dl__soon { color: var(--warm); font-weight: 600; }
+.dl__alt { font-size: .98rem; }
+.dl__shot { display: block; width: 100%; max-width: 34em; height: auto; margin: 20px 0 8px; border-radius: 10px; }
 .dl__guide { min-width: 0; max-width: 34em; }
 .dl__guide h3 { margin-bottom: 24px; font-size: 1.35rem; line-height: 1.4; }
 .dl__steps { counter-reset: d; display: grid; gap: 16px; max-width: 34em; color: var(--warm); overflow-wrap: anywhere; }

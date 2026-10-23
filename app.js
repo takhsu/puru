@@ -26,7 +26,8 @@ const i18n = (() => {
 // Site settings. Edit only this block when the GitHub release and the feedback address exist.
 // ---------------------------------------------------------------------------
 const SITE = {
-  downloadUrl: "https://github.com/takhsu/puru/releases/download/v0.9.0/PURUCUT-0.9.0-portable-x64.zip",
+  downloadUrl: "https://github.com/takhsu/puru/releases/download/v0.9.1/PURUCUT-0.9.1-setup-x64.exe",   // installer (main button)
+  portableUrl: "https://github.com/takhsu/puru/releases/download/v0.9.1/PURUCUT-0.9.1-portable-x64.zip", // portable zip (small link)
   downloadMeta: "",  // leave empty to keep the default line in index.html
   feedbackUrl: "https://github.com/takhsu/puru/issues",
   sourceUrl: ""      // source code repository
@@ -41,6 +42,11 @@ const SITE = {
     a.setAttribute("aria-disabled", "true");
     a.removeAttribute("href");
   });
+  const portable = document.querySelector("[data-portable]");
+  if (portable) {
+    if (SITE.portableUrl) portable.href = SITE.portableUrl;
+    else portable.hidden = true;
+  }
   const meta = document.querySelector("[data-download-meta]");
   const soon = document.querySelector("[data-download-soon]");
   if (meta && SITE.downloadMeta) { meta.textContent = SITE.downloadMeta; meta.removeAttribute("data-zh"); }
